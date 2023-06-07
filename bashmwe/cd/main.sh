@@ -1,6 +1,8 @@
-et -x
-cp src destination#!/bin/bash
+#! /usr/bin/env bash
 
 set -x
-cp src destination
+tmpdir=$(mktemp -d)
+pwd
+cd "$tmpdir"
+pwd
 
